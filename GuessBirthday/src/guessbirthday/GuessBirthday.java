@@ -103,7 +103,7 @@ public class GuessBirthday {
         if (Character.toUpperCase(answer) == 'Y')
                 day += 16;
 
-        
+        System.out.println("\nYour birthday is " + day + "!");
 
         input.close();
     }
